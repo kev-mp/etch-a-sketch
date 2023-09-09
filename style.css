@@ -5,16 +5,19 @@
 }
 
 .square {
-    margin: 1px;
+    
     background-color: white;
     flex-shrink: 0;
+    /*
+    margin: 1px;
     border-radius: 3px;
+    */
 }
 
 .board {
     background-color: black;
     display: inline-block;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 .row {

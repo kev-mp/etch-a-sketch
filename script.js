@@ -1,7 +1,7 @@
 const board = document.querySelector('.board')
 
 
-let numberOfSquares = 16;
+let numberOfSquares = 65;
 let boardSize = 600;
 
 for (let i = 0; i < numberOfSquares; i++) {
