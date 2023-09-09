@@ -19,10 +19,6 @@ for (let i = 0; i < numberOfSquares; i++) {
 }
 
 
-function fillSquare() {
-
-}
-
 const squares = document.querySelectorAll('.square');
 
 squares.forEach( square => {
