@@ -54,6 +54,7 @@ ul {
 
 .slider {
     background-color: black;
+    accent-color: black;
 }
 
 input[type="button"] {
