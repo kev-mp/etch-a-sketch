@@ -44,10 +44,10 @@ document.getElementById('clear').addEventListener('click', () => {
 
 const slider = document.querySelector('.slider');
 const barSize = document.querySelector('.bar-size')
-barSize.innerHTML = slider.value;
+barSize.innerHTML = `${slider.value}x${slider.value}`;
 
 slider.oninput = () => {
-    barSize.innerHTML = slider.value;
+    barSize.innerHTML = `${slider.value}x${slider.value}`;
 }
 
 document.querySelector(".change").addEventListener("click", () => {
